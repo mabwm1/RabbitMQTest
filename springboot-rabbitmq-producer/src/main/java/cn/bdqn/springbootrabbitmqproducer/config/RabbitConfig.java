@@ -54,10 +54,4 @@ public class RabbitConfig {
         return BindingBuilder.bind(queue).to(exchange).with("").noargs();
     }
 
-    //作业
-    //routing模式
-
-    //topic模式
-
-
 }
